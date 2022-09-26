@@ -5,4 +5,5 @@ const db = mysql.createConnection({
     password: '123456',
     database: 'office'
 })
+
 module.exports = db

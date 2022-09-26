@@ -22,4 +22,21 @@ api.get('/cplb', cplb.cplbList)
 //轮播图
 api.get('/getcarousel', carousel.getcarousel)
 
+//登录注册
+const login = require('../handler/loginHandler')
+
+//登录
+api.post('/login', login.login)
+
+//注册
+api.post('/enroll', login.enroll)
+
+
+const fileHandler = require('../handler/form')
+const multipart = require('connect-multiparty')
+const multipartMiddleware = multipart()
+
+//文件上传
+api.post('/upload', multipartMiddleware, fileHandler.file)
+
 module.exports = api

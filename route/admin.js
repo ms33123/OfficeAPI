@@ -36,4 +36,7 @@ admin.post('/detelecarousel/:id', carousel.detelecarousel)
 //修改轮播
 admin.post('/updatecarousel', carousel.updatecarousel)
 
+//获取单个轮播内容
+admin.post('/getcarousel/:id', carousel.revisecarousel)
+
 module.exports = admin

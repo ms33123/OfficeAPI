@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8a3b1de8-7c76-492c-978a-0f9544b932ab" name="变更" comment="">
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handler/carouselHandler.js" beforeDir="false" afterPath="$PROJECT_DIR$/handler/carouselHandler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handler/cplbHandler.js" beforeDir="false" afterPath="$PROJECT_DIR$/handler/cplbHandler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handler/gywmHandler.js" beforeDir="false" afterPath="$PROJECT_DIR$/handler/gywmHandler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handler/informationHandler.js" beforeDir="false" afterPath="$PROJECT_DIR$/handler/informationHandler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handler/mapHandler.js" beforeDir="false" afterPath="$PROJECT_DIR$/handler/mapHandler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysql/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/route/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/route/api.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2FIAHmmppjjYbRoK0VPp5Gcqtil" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="8a3b1de8-7c76-492c-978a-0f9544b932ab" name="变更" comment="" />
+      <created>1664169141154</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1664169141154</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

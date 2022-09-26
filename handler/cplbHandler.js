@@ -1,6 +1,14 @@
 //引入数据库
 const db = require('../mysql/index')
 
+const sql = 'CREATE TABLE IF NOT EXISTS `cplb` (`id` int(0) NOT NULL AUTO_INCREMENT,`name` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,`time` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,`content` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,`show` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL DEFAULT "1",PRIMARY KEY (`id`) USING BTREE) ENGINE = InnoDB AUTO_INCREMENT = 10 CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic;'
+
+db.query(sql, (err, result) => {
+    if (err) {
+        console.log(err.message);
+    }
+})
+
 //产品列表
 exports.cplbList = (req, res) => {
     const sql = 'select * from cplb'

@@ -1,6 +1,14 @@
 //引入数据库
 const db = require('../mysql/index')
 
+const sql = 'CREATE TABLE IF NOT EXISTS `gywm` (`id` int(0) NOT NULL,`content` varchar(2550) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,PRIMARY KEY (`id`) USING BTREE) ENGINE = InnoDB CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic;'
+
+db.query(sql, (err, result) => {
+    if (err) {
+        console.log(err.message);
+    }
+})
+
 exports.gywm = (req, res) => {
     const sql = 'select content from gywm'
     db.query(sql, (err, result) => {
