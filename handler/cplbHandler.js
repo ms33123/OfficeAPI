@@ -92,3 +92,22 @@ exports.add = (req, res) => {
         })
     })
 }
+
+//获取单个产品列表的信息
+exports.getList = (req, res) => {
+    const id = req.params;
+    const sql = 'select * from cplb where `id` = ?'
+    db.query(sql, [id], (err, result) => {
+        if (err) {
+            return res.send({
+                status: 0,
+                msg: err.message
+            })
+        }
+        res.send({
+            status: 1,
+            data: result[0],
+            msg: '获取成功'
+        })
+    })
+}

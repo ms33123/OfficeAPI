@@ -25,6 +25,9 @@ admin.post('/delete/:id', cplb.delete)
 //添加产品
 admin.post('/add', cplb.add)
 
+//获取单个产品列表信息
+admin.post('/getcplb/:id', cplb.getList)
+
 const carousel = require('../handler/carouselHandler')
 
 //添加轮播图
